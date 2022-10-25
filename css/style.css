@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: 0 19%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.background {
+  margin-top: 5%;
+}
+
+.window {
+  display: flex;
+  background-color: rgba(0, 255, 255, 0.377);
+  width: 700px;
+  padding: 50px 20px 20px 20px;
+  gap: 20px;
+  margin: auto;
+  position: relative;
+}
+
+aside {
+  flex: 1;
+}
+
+.name, .gender, .species, .origin, .location {
+  display: flex;
+  gap: 10px;
+  background-color: rgba(0, 255, 255, 0.308);
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+.dashboard {
+  background-color: gray;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.button_search #id_input {
+  margin: auto;
+}
+
+.button_search {
+  cursor: pointer;
+}
+
+.status {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+
+.led {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+
+.right-status {
+  font-size: 3rem;
+}
+
+.image {
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.432);
+  width: 300px;
+  height: 300px;
+  opacity: 85%;
+}
+
+.IDs_character {
+  display: flex;
+  position: absolute;
+  left: 90%;
+  top: 5%;
+
+  width: 40px;
+  gap: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 255, 255, 0.644);
+  border: none;
+
+}
+
